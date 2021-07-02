@@ -4,4 +4,7 @@ let prepender = function(name){
 	return 'My name is: '+name;
 };
 
-//your code here
+// code below
+
+let listOfNames = names.map(prepender)
+console.log(listOfNames);
